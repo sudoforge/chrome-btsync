@@ -1,0 +1,23 @@
+{
+  // Manifest
+  "manifest_version": 2,
+  
+  // App info
+  "name": "BTsync GUI",
+  "description": "Simple usage of BitTorrent Sync's GUI .",
+  "version": "0.1",
+
+  // Details
+  "app": {
+    "background": {
+      "scripts": ["app/background.js"]
+    }
+  },
+
+  // Permissions
+  "permissions": [
+    "webview"
+  ]
+
+  //"icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+}

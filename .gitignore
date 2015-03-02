@@ -1,0 +1,20 @@
+## Django project files/directories
+**/private
+**/bin
+**/lib
+pip-selfcheck.json
+
+## Python files
+*.pyc
+
+## Database-related files
+*.sqlite3
+
+## Operating system files
+**/.DS_Store
+
+## Temporary files
+*~
+
+## Repository-specific
+
