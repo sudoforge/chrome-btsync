@@ -4,8 +4,8 @@
   
   // App info
   "name": "BTsync GUI",
-  "description": "Simple usage of BitTorrent Sync's GUI .",
-  "version": "0.1",
+  "description": "Simple GUI usage for BitTorrent Sync.",
+  "version": "0.1.2",
 
   // Details
   "app": {
@@ -17,7 +17,10 @@
   // Permissions
   "permissions": [
     "webview"
-  ]
+  ],
 
-  //"icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+  "icons": { 
+    "16": "images/btsync-16.png", 
+    "128": "images/btsync-128.png"
+  }
 }
