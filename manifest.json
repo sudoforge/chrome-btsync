@@ -5,7 +5,7 @@
   // App info
   "name": "BTsync GUI",
   "description": "Simple GUI usage for BitTorrent Sync.",
-  "version": "0.1.2",
+  "version": "0.1.3",
 
   // Details
   "app": {
