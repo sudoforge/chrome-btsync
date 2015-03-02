@@ -19,8 +19,5 @@
     "webview"
   ],
 
-  "icons": { 
-    "16": "images/btsync-16.png", 
-    "128": "images/btsync-128.png"
-  }
+  "icons": { "16": "images/btsync-16.png", "128": "images/btsync-128.png" }
 }
