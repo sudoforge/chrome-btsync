@@ -1,4 +1,4 @@
-.git/
+.git/*
 .gitignore
-images/psd/
-packaged/
+images/psd/*
+packaged/*
