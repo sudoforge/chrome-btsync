@@ -2,18 +2,16 @@
   "manifest_version": 2,
   "name": "BTsync GUI",
   "short_name": "Sync GUI",
-  "description": "Simple GUI usage for BitTorrent Sync.",
-  "version": "0.1.4",
+  "description": "A simple app to enhance usage of the web GUI created by BitTorrent Sync.",
+  "author"     : "@bddenhartog",
+  "version"    : "1.0.0",
   
   "app": {
-    "background": {
-      "scripts": ["app/background.js"]
-    }
+    "launch": {
+      "web_url": "http://127.0.0.1:8888/gui/"
+    },
+    "urls": [ "*://127.0.0.1/" ]
   },
-
-  "permissions": [
-    "webview"
-  ],
   
   "icons": { 
     "16": "images/btsync-16.png", 
