@@ -1,0 +1,9 @@
+html 
+{
+	box-sizing: border-box;
+}
+
+*:not(img), *:before, *:after 
+{
+	box-sizing: inherit;
+}

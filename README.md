@@ -1,17 +1,31 @@
-BTsync GUI for Chrome
-=====================
+#BitTorrent Sync GUI
 
-A [Chrome Application](https://developer.chrome.com/apps/about_apps) for running the GUI for [BitTorrent Sync (BTSync)](http://www.getsync.com/). This is useful for several reasons:
+##Introduction
 
-- **Runs on any Desktop OS**. This single application runs on Windows, Mac OSX, and Linux - anywhere that Chrome (or Chromium) can run.
-- **Easy-to-use BTsync GUI**. This loads the native browser GUI for BTsync; it is not a separate application. Think of this as a frame for BTsync GUI.
-- **Easy to access**. You can put a chrome application in your start menu or task bar (windows), on your dock (linux/mac osx), or on your desktop. This makes accessing the BTsync GUI very similar to using a native application, without the extra overhead.
+BitTorrent Sync GUI is a [Chrome Application](https://developer.chrome.com/apps/about_apps) for running [BitTorrent Sync's](http://www.getsync.com/) web interface.
 
----
+####Key Features
+- **Runs on any Desktop OS**
+    This single application runs on Windows, Mac OSX, and Linux - anywhere that Chrome (or Chromium) can run.
+- **Easy to use**
+    This loads the web interface for BitTorrent Sync; it is not a separate application. Think of this as a frame for the web interface -- there is no additional learning required!
+- **Easy to access**
+    You can put a shortcut in your start menu or task bar (windows), on your dock (linux/mac osx), or on your desktop.
+- **Feels like a native application**
+    Run the BitTorrent Sync GUI as a standalone application -- no more sorting through your tabs trying to find it!
 
-Upcoming Features
-=================
+##Installation
 
-Below is a running list of things I think would be great to have, and plan on implementing.
+Lorem ipsum dolar sit amet.
 
-- **Custom hostname/port**. Provide a way for users to change the hostname and port of the webview element to match any custom configuration they may have made to btsync.
+##Usage
+
+Lorem ipsum dolar sit amet.
+
+##Contributing
+
+Lorem ipsum dolar sit amet.
+
+##License
+
+[View License](LICENSE.md).

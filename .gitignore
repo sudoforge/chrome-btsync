@@ -1,9 +1,12 @@
 ## Operating system files
 **/.DS_Store
 
-## Temporary files
+## Common files/directories
 *~
-
-## Repository-specific
-images/
+**/node_modules/
+**/.sass-cache/
 packaged/
+dist/
+
+## Project specific files/directories
+

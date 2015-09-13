@@ -1,21 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "BTsync GUI",
-  "short_name": "Sync GUI",
-  "description": "A simple app to enhance usage of the web GUI created by BitTorrent Sync.",
-  "author"     : "@bddenhartog",
-  "version"    : "1.0.0",
-  
-  "app": {
-    "launch": {
-      "web_url": "http://127.0.0.1:8888/gui/"
+    "manifest_version": 2,
+    "name": "BitTorrent Sync GUI",
+    "short_name": "Sync",
+    "version": "0.1.0",
+    "description": "A Chrome application for BitTorrent Sync.",
+    "options_page": "dist/html/options.html",
+
+    "app": {
+        "launch": {
+            "local_path": "dist/html/redirect.html"
+        }
     },
-    "urls": [ "*://127.0.0.1/" ]
-  },
-  
-  "icons": { 
-    "16": "images/btsync-16.png", 
-    "32": "images/btsync-32.png",
-    "128": "images/btsync-128.png"
-  }
+
+    "permissions": [
+        "storage"
+    ],
+
+    "icons": {
+        "16": "dist/img/btsync-16.png",
+        "32": "dist/img/btsync-32.png",
+        "128": "dist/img/btsync-128.png"
+    }
 }

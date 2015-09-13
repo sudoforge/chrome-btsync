@@ -1,0 +1,25 @@
+{
+  "name": "chrome-btsync",
+  "version": "0.1.0",
+  "description": "A Chrome application for BitTorrent Sync.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/bddenhartog/chrome-btsync"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-jade": "latest",
+    "gulp-jshint": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "jshint-stylish": "latest"
+  }
+}
