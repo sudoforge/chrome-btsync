@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "BitTorrent Sync GUI",
     "short_name": "Sync",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Chrome application for BitTorrent Sync.",
     "options_page": "dist/html/options.html",
 
