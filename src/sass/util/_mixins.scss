@@ -1,0 +1,134 @@
+/**
+ * background-opacity()
+ * @param  {hex} $color
+ * @param  {integer} $alpha
+ *
+ * Uses magical powers to output $color (a hex color, like #000)
+ * in rgba format at the requested $alpha (like 0.5) - with
+ * graceful degradation.
+ */
+@mixin background-color($color, $alpha: 1)
+{
+    background-color: $color;
+    @if ($alpha != 1)
+    {
+        $rgba: rgba($color, $alpha);
+        background-color: $rgba;
+    }
+}
+
+/**
+ * border-radius()
+ * @param  {string} $radius
+ *
+ * Adds background-clip to a border-radius property.
+ */
+@mixin border-radius($radius)
+{
+    border-radius: $radius;
+    background-clip: padding-box;
+}
+
+/**
+ * breakpoint()
+ * @param  {string} $str
+ *
+ * This mixin helps to define properties on screens
+ * that have more horizontal real estate.
+ */
+@mixin breakpoint($str)
+{
+    // set breakpoints if they don't exist
+    $breakpoint-medium: 768px !default;
+    $breakpoint-large: 1024px !default;
+    $breakpoint-xlarge: 1200px !default;
+
+    @if $str == "medium-up"
+    {
+        @media (min-width: $breakpoint-medium) { @content; }
+    }
+    @else if $str == "large-up"
+    {
+        @media (min-width: $breakpoint-large) { @content; }
+    }
+    @else if $str == "xlarge-up"
+    {
+        @media (min-width: $breakpoint-xlarge) { @content; }
+    }
+    @else
+    {
+        @media #{$str} { @content; }
+    }
+}
+
+/**
+ * clearfix()
+ *
+ * Clears floats. This should only be used on
+ * non-top-level elements for which the placeholder
+ * selector %clearfix is unable to be extended.
+ *
+ * See _placeholders.scss
+ */
+@mixin clearfix()
+{
+    &:after
+    {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * font()
+ * @param  {string} $family
+ * @param  {integer} $weight:500
+ * @param  {string} $style:normal
+ *
+ * Allows for easy application of custom fonts, with nice defaults.
+ *
+ * $family can be a list, e.g.:
+ * $my-font-list: "Helvetica", "Verdana", sans-serif;
+ *
+ * Then include the mixin with:
+ * @include font($my-font-list);
+ */
+@mixin font($family, $weight:500, $style:normal)
+{
+    font-family: $family;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+/**
+ * headings()
+ * @param  {integer} $from:1
+ * @param  {integer} $to:6
+ *
+ * Cleaner code for those times that you're
+ * applying styles to multiple headings.
+ */
+@mixin headings($from:1, $to:6)
+{
+    @for $i from $from through $to
+    {
+        h#{$i}
+        {
+            @content;
+        }
+    }
+}
+
+/**
+ * position()
+ * @param  {string} $pos
+ *
+ * This doesn't save time/space, it just encourages
+ * grouping position-related properties together.
+ */
+@mixin position($pos)
+{
+    position: $pos;
+    @content;
+}

@@ -1,0 +1,9 @@
+#!/bin/bash
+if [[ -z $1 ]]; then
+    echo "usage: ./bump 1.2.3"
+    exit 0
+fi
+
+
+sed -i "s/\"version\".*/\"version\": \"${1}\",/" package.json
+sed -i "s/\"version\".*/\"version\": \"${1}\",/" manifest.json
