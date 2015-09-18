@@ -1,0 +1,10 @@
+.git/*
+docker/*
+node_modules/*
+src/*
+.baggerignore
+.gitignore
+bump
+Dockerfile
+gulpfile.js
+package.json
