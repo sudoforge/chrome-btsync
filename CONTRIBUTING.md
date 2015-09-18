@@ -14,4 +14,6 @@
 Once you have NPM (node) and Gulp installed, you can install the required packages by entering the project directory and running `npm install`.
 
 ## Development
-Fork this repository, create your feature, and submit a pull request back to this repository. Your features should be developed in their own branch, preferably prefixed with `feature-<your feature name>`. All feature branches should be developed off of, and submitted back to, the `develop` branch. Rebasing master before pushing your "final" to your fork can speed up merges.
+**Important Note**: Run `gulp build` to do a one-time compilation of source files (since processed files are not included in the repo), and run `gulp watch` while you are developing to have your files watched for changes and processed automatically.
+
+Fork this repository, create your feature, and submit a pull request back to this repository. Your features should be developed in their own branch, preferably prefixed with `feature-`. All feature branches should be developed off of, and submitted back to, the `develop` branch. Rebasing master before pushing your "final" to your fork can speed up merges.
