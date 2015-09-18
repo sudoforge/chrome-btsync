@@ -7,11 +7,12 @@ html(lang="en")
     
     body
         section
-            h1 BitTorrent Sync Options
+            h1 Options
             form
-                label(for="port") Port #:
+                label(for="port") Enter the port that BitTorrent Sync runs on:
                 input#port(type="text" name="port" placeholder="8888 (default)")
-            button Save
+            button#save-button Save
+            #message.hide Options updated
         
         //- Scripts
         script(src="../js/options.min.js")
