@@ -24,10 +24,8 @@ From your [Apps Page](chrome://apps), right-click the "Sync" icon and select *Op
 
 ## Contributing
 
-
-
-All PRs will be reviewed and commented on before merging. Thanks!
+[View Contributing Docs](CONTRIBUTING.md)
 
 ## License
 
-[View License](LICENSE.md).
+[View License](LICENSE.md)
