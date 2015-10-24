@@ -107,3 +107,5 @@ gulp.task('build', [
     'img-optimize',
     'jade-compile'
 ]);
+
+gulp.task('default', ['build', 'watch']);
