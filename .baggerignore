@@ -1,10 +1,9 @@
 .git/*
-docker/*
 node_modules/*
 src/*
+compressed/*
 .baggerignore
 .gitignore
-bump
-Dockerfile
+version_bump
 gulpfile.js
 package.json
