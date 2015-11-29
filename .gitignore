@@ -5,8 +5,7 @@
 *~
 **/node_modules/
 **/.sass-cache/
-packaged/
+bagged/
 dist/
 
 ## Project specific files/directories
-
