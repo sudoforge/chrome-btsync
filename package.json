@@ -20,6 +20,7 @@
     "gulp-sass": "latest",
     "gulp-sourcemaps": "latest",
     "gulp-uglify": "latest",
+    "jshint": "latest",
     "jshint-stylish": "latest"
   }
 }
