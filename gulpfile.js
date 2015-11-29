@@ -108,4 +108,4 @@ gulp.task('build', [
     'jade-compile'
 ]);
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['watch']);
