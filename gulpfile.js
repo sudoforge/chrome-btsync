@@ -89,7 +89,7 @@ gulp.task('img-optimize', function()
  * TASK: WATCH
  * Watches files and runs tasks on change
  */
-gulp.task('watch', function()
+gulp.task('watch', ['build'], function()
 {
     gulp.watch(path.sass.src, ['sass']);
     gulp.watch(path.js.src, ['js']);
